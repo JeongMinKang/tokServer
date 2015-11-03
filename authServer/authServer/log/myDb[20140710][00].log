@@ -1,0 +1,21 @@
+20140710000135.183071 file:myDb.cpp function:connect line:46 index: 0, mysql_real_connect error: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
+20140710000225.252722 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710000225.260683 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140710000752.264161 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710000752.264447 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140710001019.810447 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710001019.810690 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140710001120.048526 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710001120.048774 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140710001723.136868 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710001723.137131 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140710001944.811681 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710001944.811956 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140710003234.365199 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710003234.365428 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140710004845.814830 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710004845.815060 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140710005019.747716 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710005019.747959 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140710005150.497124 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140710005150.497380 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message

@@ -1,0 +1,11 @@
+{
+    "0": "select id, description from db_auth.app_id",
+    "1": "select id, message from db_auth.error_message",
+    "2": "select email from db_auth.user_info where email=%1% and app_id=%2% and delete_flag=0",
+    "3": "insert into db_auth.user_info (email, app_id, id, name, password, phone, create_time, last_auth_time) values (%1%, %2%, %3%, %4%, %5%, %6%, now(), now())",
+    "4": "select id, password from db_auth.user_info where email=%1% and app_id=%2% and delete_flag=0",
+    "5": "select email, name, phone from db_auth.user_info where id=%1% and delete_flag=0",
+    "6": "select id from db_auth.user_info where id=%1% and delete_flag=0",
+    "7": "update db_auth.user_info set delete_flag=1, last_auth_time=now() where id=%1%",
+    "8": "delete from db_auth.user_info where id=%1%"
+}

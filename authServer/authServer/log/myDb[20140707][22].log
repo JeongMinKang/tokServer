@@ -1,0 +1,5 @@
+20140707222042.765065 file:myDb.cpp function:connect line:46 index: 0, mysql_real_connect error: Can't connect to local MySQL server through socket '' (2)
+20140707222600.447784 file:myDb.cpp function:connect line:46 index: 0, mysql_real_connect error: Can't connect to local MySQL server through socket '' (2)
+20140707223046.850110 file:myDb.cpp function:connect line:46 index: 0, mysql_real_connect error: Can't connect to local MySQL server through socket '' (2)
+20140707224626.946530 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140707225622.778489 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id where id=10000

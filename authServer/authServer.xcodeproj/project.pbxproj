@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4131903A19572DFD00985099 /* appData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41318FB519571B3600985099 /* appData.cpp */; };
+		4131903B19572DFD00985099 /* authMainProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41318FB719571B3600985099 /* authMainProc.cpp */; };
+		4131903C19572DFD00985099 /* authPeer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41318FB919571B3600985099 /* authPeer.cpp */; };
+		4131903D19572DFD00985099 /* authServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41318FBB19571B3600985099 /* authServer.cpp */; };
+		4131903E19572E4A00985099 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41318FBD19571B3600985099 /* main.cpp */; };
+		418F7C67195FA0E200CDB05D /* appCrypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 418F7C65195FA0E200CDB05D /* appCrypto.cpp */; };
+		41A637111964EA0F00CD2FA4 /* token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41A6370F1964EA0F00CD2FA4 /* token.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4131902F19572DD000985099 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		41318FB519571B3600985099 /* appData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = appData.cpp; sourceTree = "<group>"; };
+		41318FB619571B3600985099 /* appData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appData.h; sourceTree = "<group>"; };
+		41318FB719571B3600985099 /* authMainProc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = authMainProc.cpp; sourceTree = "<group>"; };
+		41318FB819571B3600985099 /* authMainProc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = authMainProc.h; sourceTree = "<group>"; };
+		41318FB919571B3600985099 /* authPeer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = authPeer.cpp; sourceTree = "<group>"; };
+		41318FBA19571B3600985099 /* authPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = authPeer.h; sourceTree = "<group>"; };
+		41318FBB19571B3600985099 /* authServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = authServer.cpp; sourceTree = "<group>"; };
+		41318FBC19571B3600985099 /* authServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = authServer.h; sourceTree = "<group>"; };
+		41318FBD19571B3600985099 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41318FBE19571B3600985099 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		41318FBF19571B3600985099 /* preCompiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = preCompiled.h; sourceTree = "<group>"; };
+		4131903119572DD000985099 /* authServer-symbol */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "authServer-symbol"; sourceTree = BUILT_PRODUCTS_DIR; };
+		418F7C65195FA0E200CDB05D /* appCrypto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = appCrypto.cpp; sourceTree = "<group>"; };
+		418F7C66195FA0E200CDB05D /* appCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appCrypto.h; sourceTree = "<group>"; };
+		41A6370F1964EA0F00CD2FA4 /* token.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = token.cpp; sourceTree = "<group>"; };
+		41A637101964EA0F00CD2FA4 /* token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = token.h; sourceTree = "<group>"; };
+		41F0EE37196CE72400C9C338 /* dbQueryDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbQueryDef.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4131902E19572DD000985099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41318F9A19571AD600985099 = {
+			isa = PBXGroup;
+			children = (
+				41318FA519571AD600985099 /* authServer */,
+				4131903219572DD000985099 /* authServer-symbol */,
+				41318FA419571AD600985099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41318FA419571AD600985099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4131903119572DD000985099 /* authServer-symbol */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41318FA519571AD600985099 /* authServer */ = {
+			isa = PBXGroup;
+			children = (
+				41318FB519571B3600985099 /* appData.cpp */,
+				41318FB619571B3600985099 /* appData.h */,
+				41318FB719571B3600985099 /* authMainProc.cpp */,
+				41318FB819571B3600985099 /* authMainProc.h */,
+				41318FB919571B3600985099 /* authPeer.cpp */,
+				41318FBA19571B3600985099 /* authPeer.h */,
+				41318FBB19571B3600985099 /* authServer.cpp */,
+				41318FBC19571B3600985099 /* authServer.h */,
+				41318FBD19571B3600985099 /* main.cpp */,
+				41318FBE19571B3600985099 /* makefile */,
+				41318FBF19571B3600985099 /* preCompiled.h */,
+				418F7C65195FA0E200CDB05D /* appCrypto.cpp */,
+				418F7C66195FA0E200CDB05D /* appCrypto.h */,
+				41A6370F1964EA0F00CD2FA4 /* token.cpp */,
+				41A637101964EA0F00CD2FA4 /* token.h */,
+				41F0EE37196CE72400C9C338 /* dbQueryDef.h */,
+			);
+			path = authServer;
+			sourceTree = "<group>";
+		};
+		4131903219572DD000985099 /* authServer-symbol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "authServer-symbol";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		41318FC619571B7200985099 /* authServer */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 41318FC719571B7200985099 /* Build configuration list for PBXLegacyTarget "authServer" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/zermin/work/tokque/server/tokServer/authServer/authServer;
+			dependencies = (
+			);
+			name = authServer;
+			passBuildSettingsInEnvironment = 1;
+			productName = authServer;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		4131903019572DD000985099 /* authServer-symbol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4131903919572DD000985099 /* Build configuration list for PBXNativeTarget "authServer-symbol" */;
+			buildPhases = (
+				4131902D19572DD000985099 /* Sources */,
+				4131902E19572DD000985099 /* Frameworks */,
+				4131902F19572DD000985099 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "authServer-symbol";
+			productName = "authServer-symbol";
+			productReference = 4131903119572DD000985099 /* authServer-symbol */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41318F9B19571AD600985099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JeongMin.Kang;
+			};
+			buildConfigurationList = 41318F9E19571AD600985099 /* Build configuration list for PBXProject "authServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41318F9A19571AD600985099;
+			productRefGroup = 41318FA419571AD600985099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41318FC619571B7200985099 /* authServer */,
+				4131903019572DD000985099 /* authServer-symbol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4131902D19572DD000985099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A637111964EA0F00CD2FA4 /* token.cpp in Sources */,
+				4131903E19572E4A00985099 /* main.cpp in Sources */,
+				4131903A19572DFD00985099 /* appData.cpp in Sources */,
+				418F7C67195FA0E200CDB05D /* appCrypto.cpp in Sources */,
+				4131903B19572DFD00985099 /* authMainProc.cpp in Sources */,
+				4131903C19572DFD00985099 /* authPeer.cpp in Sources */,
+				4131903D19572DFD00985099 /* authServer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41318FAA19571AD600985099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		41318FAB19571AD600985099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41318FC819571B7200985099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		41318FC919571B7200985099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4131903719572DD000985099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/zermin/work/library/boost/include,
+					/Users/zermin/work/library/cryptopp,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4131903819572DD000985099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Users/zermin/work/library/boost/include,
+					/Users/zermin/work/library/cryptopp,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41318F9E19571AD600985099 /* Build configuration list for PBXProject "authServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41318FAA19571AD600985099 /* Debug */,
+				41318FAB19571AD600985099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41318FC719571B7200985099 /* Build configuration list for PBXLegacyTarget "authServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41318FC819571B7200985099 /* Debug */,
+				41318FC919571B7200985099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4131903919572DD000985099 /* Build configuration list for PBXNativeTarget "authServer-symbol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4131903719572DD000985099 /* Debug */,
+				4131903819572DD000985099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41318F9B19571AD600985099 /* Project object */;
+}

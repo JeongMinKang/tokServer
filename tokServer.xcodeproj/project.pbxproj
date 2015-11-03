@@ -1,0 +1,175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		412DC3F3195BF42400E602C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41318FAF19571AD600985099 /* authServer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4131903119572DD000985099;
+			remoteInfo = "authServer-symbol";
+		};
+		412DC3F6195BF42400E602C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412DC3EE195BF42300E602C7 /* keyPairGenerator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 412DC3E2195BF42300E602C7;
+			remoteInfo = keyPairGenerator;
+		};
+		412DC3FA195BF42400E602C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41318F601957186700985099 /* tokLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4131900F19572B5D00985099;
+			remoteInfo = "tokLib-symbol";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		412DC3EE195BF42300E602C7 /* keyPairGenerator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = keyPairGenerator.xcodeproj; path = keyPairGenerator/keyPairGenerator.xcodeproj; sourceTree = "<group>"; };
+		41318F191957140000985099 /* common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = common.xcodeproj; path = common/common.xcodeproj; sourceTree = "<group>"; };
+		41318F601957186700985099 /* tokLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tokLib.xcodeproj; path = tokLib/tokLib.xcodeproj; sourceTree = "<group>"; };
+		41318FAF19571AD600985099 /* authServer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = authServer.xcodeproj; path = authServer/authServer.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		412DC3EF195BF42300E602C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412DC3F7195BF42400E602C7 /* keyPairGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41318EED1957118400985099 = {
+			isa = PBXGroup;
+			children = (
+				412DC3EE195BF42300E602C7 /* keyPairGenerator.xcodeproj */,
+				41318FAF19571AD600985099 /* authServer.xcodeproj */,
+				41318F601957186700985099 /* tokLib.xcodeproj */,
+				41318F191957140000985099 /* common.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		41318F1A1957140000985099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41318F611957186700985099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412DC3FB195BF42400E602C7 /* libtokLib-symbol.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41318FB019571AD600985099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412DC3F4195BF42400E602C7 /* authServer-symbol */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		41318EEE1957118400985099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 41318EF11957118400985099 /* Build configuration list for PBXProject "tokServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41318EED1957118400985099;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 41318FB019571AD600985099 /* Products */;
+					ProjectRef = 41318FAF19571AD600985099 /* authServer.xcodeproj */;
+				},
+				{
+					ProductGroup = 41318F1A1957140000985099 /* Products */;
+					ProjectRef = 41318F191957140000985099 /* common.xcodeproj */;
+				},
+				{
+					ProductGroup = 412DC3EF195BF42300E602C7 /* Products */;
+					ProjectRef = 412DC3EE195BF42300E602C7 /* keyPairGenerator.xcodeproj */;
+				},
+				{
+					ProductGroup = 41318F611957186700985099 /* Products */;
+					ProjectRef = 41318F601957186700985099 /* tokLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		412DC3F4195BF42400E602C7 /* authServer-symbol */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "authServer-symbol";
+			remoteRef = 412DC3F3195BF42400E602C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		412DC3F7195BF42400E602C7 /* keyPairGenerator */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = keyPairGenerator;
+			remoteRef = 412DC3F6195BF42400E602C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		412DC3FB195BF42400E602C7 /* libtokLib-symbol.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libtokLib-symbol.a";
+			remoteRef = 412DC3FA195BF42400E602C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		41318EF21957118400985099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		41318EF31957118400985099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41318EF11957118400985099 /* Build configuration list for PBXProject "tokServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41318EF21957118400985099 /* Debug */,
+				41318EF31957118400985099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41318EEE1957118400985099 /* Project object */;
+}

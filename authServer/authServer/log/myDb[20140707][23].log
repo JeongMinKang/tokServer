@@ -1,0 +1,8 @@
+20140707232656.292857 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140707232723.977985 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140707232802.046993 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140707232814.680454 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140707232912.593039 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140707232918.581141 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message
+20140707233046.277998 file:myDb.cpp function:query line:76 index: 0, query: select id, description from db_auth.app_id
+20140707233048.788935 file:myDb.cpp function:query line:76 index: 0, query: select id, message from db_auth.error_message

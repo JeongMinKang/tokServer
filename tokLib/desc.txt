@@ -1,0 +1,4 @@
+2014-06-02 zermin@tokque.com
+tokLib descriptions
+
+network(asio), db(mysql), log, timer, ...
